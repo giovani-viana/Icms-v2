@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Página Principal</title>
       </Head>
-      <h1 className={styles.title}>Calculadora de Imposto sobre circulação de bens e serviços</h1>
+      <h1 className={styles.title}>Calculadora de Icms</h1>
       <Container>
         <Calculadora />
       </Container>

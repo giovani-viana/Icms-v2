@@ -10,8 +10,8 @@ export default function Calculadora() {
 
     const [state, setState] = useState({
         preçodaCompra: 0,
-        porcentagemEstado: 17,
-        tipodeProduto: 1,
+        porcentagemEstadoO: 0,
+        porcentagemEstadoD: 0,
     });
     
     const updateValues = (newState) => {
